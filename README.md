@@ -1,3 +1,3 @@
 # ICSE-2013-MCT
 
-## Sample
+## The author will let us know once the code is uploaded in github
