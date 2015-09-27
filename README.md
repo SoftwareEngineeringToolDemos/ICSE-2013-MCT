@@ -4,8 +4,7 @@ This repository contains information related to the tool MCT tool presented in I
 
 This repository _is not_ the original repository for this tool. Here are some links to the original project:
 * [The Official Project Page, including source code](https://sando.codeplex.com/)
-* [The Tool on the Visual Studio Gallery](https://visualstudiogallery.msdn.microsoft.com/06f39a31-20ce-408c-afee-8a02b484db1c)
-* [A Video of the Tool](https://www.youtube.com/watch?v=SDTPDpleOcM)
+* [A Video of the Tool](https://www.youtube.com/watch?v=tHEHqZme4VE)
 
 In this repository, for ExampleTool you will find:
 * :x: Source code (not available)
