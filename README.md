@@ -5,7 +5,7 @@ This repository contains information related to the tool MCT presented in Intern
 This repository _is not_ the original repository for this tool. Here are some links to the original project:
 * [A Video of the Tool](https://www.youtube.com/watch?v=tHEHqZme4VE)
 
-In this repository, for ExampleTool you will find:
+In this repository, for MCT tool you will find:
 * :x: Source code (not available)
 * :white_check_mark: [The original tool](binaries) (available)
 
