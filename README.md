@@ -9,5 +9,5 @@ In this repository, for MCT tool you will find:
 * :x: Source code (not available)
 * :white_check_mark: [The original tool](binaries) (available)
 
-This repository was constructed by [Sarthak Shetty](https://github.com/spshetty), [Jennifer Tsan](https://github.com/jentsan) and [Venkatesh Sambandamoorthy](https://github.com/ven0226) under the supervision of [Emerson Murphy-Hill](https://github.com/CaptainEmerson). Thanks to Yiyang Hao,  Ge Li, Lili Mou,Lu Zhang and Zhi Jin for their help in establishing this repository. 
+This repository was constructed by [Venkatesh Sambandamoorthy](https://github.com/ven0226) under the supervision of [Emerson Murphy-Hill](https://github.com/CaptainEmerson). Thanks to Yiyang Hao,  Ge Li, Lili Mou,Lu Zhang and Zhi Jin for their help in establishing this repository. 
 
