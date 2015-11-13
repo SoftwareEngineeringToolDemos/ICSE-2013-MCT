@@ -6,7 +6,7 @@
   5. Run `vagrant up` from command line.
   6. Login the vm using password `vagrant`
   7. Let the box restart.
-  8. Login the vm using `password = vagrant`
+  8. Login the vm using password `vagrant`
   9. Following can be observed:
     * Base box image is downloaded and added in Vagrant.
     * Virtual machine is created and loaded using this VirtualBox.
