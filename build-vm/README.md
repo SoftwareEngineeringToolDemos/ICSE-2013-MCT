@@ -4,13 +4,16 @@
   3. Clone the repository or download the repository as zip.
   4. Open `{Systempath}/ICSE-2013-MCT/build-vm` in command line
   5. Run `vagrant up` from command line.
-  6. Shutdown the vm in the virtualbox.
-  7. Run `vagrant reload --provision`
-  8. Following can be observed:
+  6. Login the vm using `password = vagrant`
+  7. Shutdown the vm in the virtual box.
+  8. Run `vagrant reload --provision`
+  9. Login the vm using `password = vagrant`
+  10. Following can be observed:
     * Base box image is downloaded and added in Vagrant.
     * Virtual machine is created and loaded using this VirtualBox.
     * VM is launched in GUI mode.
     * Java 1.7 is installed using Chocolatey.
+    * The OS will be active for 90 days.
 
 ## Validation
   1. Open command prompt using `cmd` from windows-run
