@@ -7,9 +7,10 @@
   6. Login the vm using password `vagrant`
   7. Let the box restart.
   8. Login the vm using password `vagrant`
-  9. Following can be observed:
+  9. Activate the OS online.
+  10. Following can be observed:
     * Base box image is downloaded and added in Vagrant.
-    * Virtual machine is created and loaded using this VirtualBox.
+    * Virtual machine is created and loaded using VirtualBox.
     * VM is launched in GUI mode.
     * Java 1.7 is installed using Chocolatey.
     * The OS will be active for 90 days.
