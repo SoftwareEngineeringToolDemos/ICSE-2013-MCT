@@ -52,7 +52,8 @@ Vagrant.configure(2) do |config|
 
   # Will use winrm instead of SSH since this is a Windows VM.
   config.vm.communicator = "winrm"
-
+  config.winrm.username = "vagrant"
+  config.winrm.password = "vagrant"
   config.vm.provider "virtualbox" do |vb|
      # Display the VirtualBox GUI when booting the machine
      vb.gui = true
@@ -79,7 +80,7 @@ Vagrant.configure(2) do |config|
   # documentation for more information about their specific syntax and use.
   #echo "installing choco"
   config.vm.provision :shell, path: "installChoco.bat"
-  config.vm.provision :shell, inline: "choco install jdk7 --force -y"
+  config.vm.provision :shell, path: "installsoft.bat"
 
   # config.vm.provision "shell", inline: <<-SHELL
   #   sudo apt-get update
