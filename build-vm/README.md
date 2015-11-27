@@ -2,10 +2,11 @@
   1. Download and install [Vagrant](https://www.vagrantup.com/downloads.html)
   2. Download and install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
   3. Clone the repository or download the repository as zip.
-  4. 5. Install the [vagrant-reload](https://github.com/aidanns/vagrant-reload) plugin. This is required to do a restart of the VM after the provisioning has completed. Use `vagrant plugin install vagrant-reload` to install. If the plugin is not installed, and `vagrant up` is used, the process will abort with an error saying the plugin is missing. 
-  4. Open `{Systempath}/ICSE-2013-MCT/build-vm` in command line
-  5. Run `vagrant up` from command line.
-  6. Following can be observed:
+     `git clone https://github.com/SoftwareEngineeringToolDemos/ICSE-2013-MCT.git`
+  4. Install the [vagrant-reload](https://github.com/aidanns/vagrant-reload) plugin. This is required to do a restart of the VM after the provisioning has completed. Use `vagrant plugin install vagrant-reload` to install. If the plugin is not installed, and `vagrant up` is used, the process will abort with an error saying the plugin is missing. 
+  5. Open `{Systempath}/ICSE-2013-MCT/build-vm` in command line
+  6. Run `vagrant up` from command line.
+  7. Following can be observed:
     * Base box image is downloaded and added in Vagrant.
     * Virtual machine is created and loaded using VirtualBox.
     * VM is launched in GUI mode.
