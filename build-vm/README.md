@@ -30,7 +30,7 @@
     * Java version should be displayed.
 
 ## References
-  1. Used vagrant Windows 7 64 bit base box image of [modernIE/w7-ie11](https://atlas.hashicorp.com/datacastle/boxes/windows7).
+  1. Used vagrant Windows 7 64 bit base box image of [modernIE/w7-ie11](https://atlas.hashicorp.com/modernIE/boxes/w7-ie11).
   2. Chocolatey script [githubpage](https://github.com/chocolatey/choco/wiki/Installation#command-line).
   3. Eclipse indigo
   4. VLC
