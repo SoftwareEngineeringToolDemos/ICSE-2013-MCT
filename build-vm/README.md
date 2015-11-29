@@ -11,19 +11,18 @@
     * Virtual machine is created and loaded using VirtualBox.
     * VM is launched in GUI mode.
     * Java 1.7 is installed using Chocolatey.
-    * VLC win 32is installed using chocolatey
+    * VLC win 32 is installed using chocolatey
     * Eclipse indigo is downlaoded
     * MCT tool is setup
     * Readme, License and Installation files are added
-    * Shortcut link to eclipse is create
+    * Shortcut link to eclipse is created
     * Shortcut link to the video demonstration is created
-    * Eclipse opens up
     * USB is disabled. 
     * The OS will be active for 90 days.
 
 ## Installing Audio Driver
     * Run the installdriver.exe in the desktop
-    * Accept the firewall changes to install the software anyway
+    * Accept the firewall changes to install the driver
     * Click `Finish' to restart the VM
     
 ## Run the tool 
