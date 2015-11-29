@@ -17,4 +17,4 @@ echo "Eclipse added to start up"
 copy %USERPROFILE%\Desktop\eclipse.lnk %PROGRAMDATA%\Microsoft\Windows\"Start Menu"\Programs\Startup
 
 echo "Downlaoding driver"
-@powershell -NoProfile -ExecutionPolicy unrestricted -Command "(New-Object Net.WebClient).DownloadFile('https://www.dropbox.com/s/8lxs4valsdxhqve/driverinstall.exe?dl=0','%USERPROFILE%\Desktop\installdriver.exe');"
+@powershell -NoProfile -ExecutionPolicy unrestricted -Command "(New-Object Net.WebClient).DownloadFile('https://www.dropbox.com/s/8lxs4valsdxhqve/driverinstall.exe?dl=1','%USERPROFILE%\Desktop\installdriver.exe');"
