@@ -2,7 +2,7 @@
 
 # https://gist.githubusercontent.com/tvjames/6750255/raw/7e5b4ada30ce7366486e04933035d50d341b02b8/vagrant_prepare.ps1
 
-Set-ExecutionPolicy -executionpolicy remotesigned -force
+Set-ExecutionPolicy -executionpolicy unrestricted -force
 
 # Step 1: Disable UAC
 New-ItemProperty -Path HKLM:Software\Microsoft\Windows\CurrentVersion\Policies\System -Name EnableLUA -PropertyType DWord -Value 0 -Force | Out-Null
