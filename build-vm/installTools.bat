@@ -34,8 +34,12 @@ echo oLink.Save >> CreateShortcut.vbs
 cscript CreateShortcut.vbs
 del CreateShortcut.vbs
 
-echo "Adding eclipse to startup"
-copy %USERPROFILE%\Desktop\eclipse.lnk %PROGRAMDATA%\Microsoft\Windows\"Start Menu"\Programs\Startup
+reg ADD "HKLM\SOFTWARE\Policies\Microsoft\Internet Explorer\Security" /f /v DisableSecuritySettingsCheck /t REG_DWORD /d "1"
+
+@powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://github.com/SoftwareEngineeringToolDemos/ICSE-2013-MCT/raw/master/build-vm/vagrant_setup.ps1'))"
+
+::echo "Adding eclipse to startup"
+::copy %USERPROFILE%\Desktop\eclipse.lnk %PROGRAMDATA%\Microsoft\Windows\"Start Menu"\Programs\Startup
 
 (echo [InternetShortcut]
 echo URL=https://www.youtube.com/watch?v=RnW_6QKTBko
