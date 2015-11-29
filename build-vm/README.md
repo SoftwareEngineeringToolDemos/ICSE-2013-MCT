@@ -28,14 +28,15 @@
     
 ## Run the tool 
   * Follow the steps mentioned [here](https://github.com/SoftwareEngineeringToolDemos/ICSE-2013-MCT)
+  * The tools is already installed, still the steps are available in installion.txt
+  * The executions steps are avaialble in Readme.txt
 
-## Validation
-  1. Open command prompt using `cmd` from windows-run
-  2. Type `java -version`
-    * Java version should be displayed.
+## Notes
+  * Wait till the script complete
+  * The audio driver has to be installed in order for the tool to work.  
 
 ## References
-  1. Used vagrant Windows 7 64 bit base box image of [modernIE/w7-ie11](https://atlas.hashicorp.com/modernIE/boxes/w7-ie11).
+  1. Used vagrant Windows 7 32 bit base box image of [modernIE/w7-ie11](https://atlas.hashicorp.com/modernIE/boxes/w7-ie11).
   2. Chocolatey script [githubpage](https://github.com/chocolatey/choco/wiki/Installation#command-line).
   3. Eclipse indigo
   4. VLC
