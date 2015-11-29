@@ -20,8 +20,12 @@
     * Eclipse opens up
     * USB is disabled. 
     * The OS will be active for 90 days.
-  7. Audio driver has to be isntalled from the [link](http://www.download3k.com/Install-Realtek-AC-97-Vista-Driver.html) 
 
+## Installing Audio Driver
+    * Run the installdriver.exe in the desktop
+    * Accept the firewall changes to install the software anyway
+    * Click `Finish' to restart the VM
+    
 ## Run the tool 
   * Follow the steps mentioned [here](https://github.com/SoftwareEngineeringToolDemos/ICSE-2013-MCT)
 
