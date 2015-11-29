@@ -31,17 +31,17 @@ WinWaitActive("Realtek AC'97 Audio Setup (5.37) 6.0.1.6305","&Next")
 Send("!n")
 
 Sleep(5000)
-WinWaitActive("Realtek AC'97 Audio Setup (5.37) 6.0.1.6305","Maintenance Complete")
+WinWaitActive("Realtek AC'97 Audio Setup (5.37) 6.0.1.6305","InstallShield Wizard Complete")
 Send("{ENTER}")
 
 
 Sleep(5000)
-WinWaitActive("Realtek AC'97 Audio Setup (5.37) 6.0.1.6305","Maintenance Complete")
+WinWaitActive("Realtek AC'97 Audio Setup (5.37) 6.0.1.6305","InstallShield Wizard Complete")
 Send("{ENTER}")
 
 
 Sleep(5000)
-WinWaitActive("Realtek AC'97 Audio Setup (5.37) 6.0.1.6305","Maintenance Complete")
+WinWaitActive("Realtek AC'97 Audio Setup (5.37) 6.0.1.6305","InstallShield Wizard Complete")
 Send("{ENTER}")
 
 
