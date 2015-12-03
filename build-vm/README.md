@@ -33,6 +33,7 @@
 ## Notes
   * Wait till the script complete
   * The audio driver has to be installed in order for the tool to work.  
+  * User: `IEUser` Password: `Passw0rd!`
 
 ## References
   1. Used vagrant Windows 7 32 bit base box image of [modernIE/w7-ie11](https://atlas.hashicorp.com/modernIE/boxes/w7-ie11).
