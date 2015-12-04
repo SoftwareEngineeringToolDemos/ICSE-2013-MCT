@@ -10,7 +10,6 @@ This repository _is not_ the original repository for this tool. Here are some li
 In this repository, for MCT tool you will find:
 * :x: Source code (not available)
 * :white_check_mark: [The original tool](binaries) (available)
-* :x: Official installtion guide (not available)
 * :white_check_mark: [Virtual machine containing tool]() (available)
 
 This repository was constructed by [Venkatesh Sambandamoorthy](https://github.com/ven0226) under the supervision of [Dr.Emerson Murphy-Hill](https://github.com/CaptainEmerson). Thanks to Yiyang Hao,  Ge Li, Lili Mou,Lu Zhang and Zhi Jin for their help in establishing this repository. 
